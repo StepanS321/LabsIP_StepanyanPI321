@@ -1,11 +1,27 @@
-<p> Дата и время:
-<p>
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Фон</title>
+  <style>
+   body {
+    background: #c7b39b url(images.jpg); /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+   }
+  </style> 
+ </head>
+</html>
+
+<p style='color:blue'> Дата и время:
+
+<p style='color:blue'>
 <?php
  $d=date("d.m.Y H:i");
  echo($d);
 ?>
-<p><b> Лабораторная работа 1 </b></p>
-<p> Самостоятельная работа 1 </p>
+
+<p style='color:blue'><b> Лабораторная работа 1 </b></p>
+<p style='color:blue'>Самостоятельная работа 1 </p>
 <ul>
 <li>
 <a href='/lab-1-1.php'>Упражнение 1-2</a>
@@ -20,7 +36,7 @@
 <a href='/lab-1-5.php'>Упражнение 1-5</a>
 </li>
 </ul>
-<p> Самостоятельная работа 2 </p>
+<p style='color:blue'>Самостоятельная работа 2 </p>
 <ul>
 <li>
 <a href='/lab-2-1.php'>Упражнение 2-1</a>
