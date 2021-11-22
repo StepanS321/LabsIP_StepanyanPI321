@@ -73,3 +73,24 @@
 </li>
 
 </ul>
+<p style='color:blue'><b> Лабораторная работа 2</b></p>
+<p style='color:blue'>Часть 1.Работа с массивами</p>
+<li>
+<a href='/lab-22-1.php'>Упражнение 2-1</a>
+</li>
+<li>
+<a href='/lab-22-2.php'>Упражнение 2-2</a>
+</li>
+<li>
+<a href='/lab-22-3.php'>Упражнение 2-3</a>
+</li>
+<p style='color:blue'>Самостоятельная работа 1</p>
+<li>
+<a href='/lab-22-4.php'>Упражнение 2-4</a>
+</li>
+<li>
+<a href='/lab-22-5.php'>Упражнение 2-5</a>
+</li>
+<li>
+<a href='/lab-22-6.php'>Упражнение 2-6</a>
+</li>
