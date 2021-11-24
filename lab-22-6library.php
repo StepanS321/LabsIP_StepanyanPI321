@@ -34,7 +34,9 @@ echo "<br>";
 function Obr(){
 global $arr;
 global $r;
-	for($w = 0; $w < $r+1; $w++){
+$peru=0;
+$pero=0;
+	for($w = 0; $w < $r; $w++){
 	if ($w>0){
 		$z=pow($pero,2)-$peru;
 		echo "Разность".$w.":".$z."<br/>";

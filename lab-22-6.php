@@ -1,8 +1,8 @@
 <p> Задача 6 В-2 Выполнил Степанян Степан
 <p>
 <?php
-include ('2.6library2.php');
-	Zad ();
+include 'lab-22-6library.php';
+	Zad();
 	Mas();
  	Viv();
 	Obr();
