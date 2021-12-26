@@ -9,7 +9,11 @@ echo $_POST['zagl'];
 	 echo "<tr>";
 	 $mass = explode(",", $_POST['select']);
 	 for ($i=0; $i < count($mass) ; $i++) { 
-	 	echo "<td >" . $row[$i] . "</td> ";
+	 	if (strtotime($row[$i])) {
+		echo "<td >" . date('d-m-Y',strtotime($row[$i])) . "</td> ";
+} 	else {
+		echo "<td >" . $row[$i] . "</td> ";
+}
 	 }
 	 echo "<td><a href='edit". $_POST['file'].".php?".$mass[0] ."=" . $row[0]
 	. "' '>Редактировать</a></td>"; // запуск скрипта для редактирования
